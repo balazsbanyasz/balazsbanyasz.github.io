@@ -1,5 +1,11 @@
+@font-face{
+  font-family: "oswald";
+  src: url("fonts/Oswald/Oswald-Regular.ttf");
+  font-weight: 500;
+}
 h1 {
   color: red;
+  font-family: oswald, Helvetica, 'Courier New', Arial;
 }
 p {
   color: green;
@@ -10,3 +16,7 @@ thead {
   font-weight: bold;
   font-size: 22px;
 }
+/* img{
+  width: 200px;
+  margin: 20px;
+} */
