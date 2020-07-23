@@ -10,6 +10,7 @@
 // git push
 // még több git parancs \man\gitcheatsheet.pdf
 
+// Shift+Alt+F szöveg formázása
 // Ctrl+D a szöveg következő előfordulásának a kijelöléshez adása
 // F2 a szöveg összes előfordulásának kijelölése
 // Ctrl+F2 a szöveg összes előfordulásának cseréje
