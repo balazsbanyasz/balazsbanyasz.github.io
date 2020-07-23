@@ -1,22 +1,99 @@
+html{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  mix-blend-mode: overlay;
+  margin: -10%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Open Sans', sans-serif; Regular 400, Bold 700
+font-family: 'Roboto', sans-serif; Regular 400*/
 @font-face{
   font-family: "oswald";
   src: url("fonts/Oswald/Oswald-Regular.ttf");
   font-weight: 500;
 }
+
+@font-face{
+  font-family: "oswald-light";
+  src: url("fonts/Oswald/Oswald-Light.ttf");
+  font-weight: 200;
+}
+.header {
+  text-transform: lowercase;
+  padding-block: 5%;
+  margin-block: 3%;
+}
+.redButton{
+  background-color: rgb(136, 25, 25);
+  color: rgb(255, 196, 0);
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+}
 h1 {
-  color: red;
-  font-family: oswald, Helvetica, 'Courier New', Arial;
+  color: rgb(90, 65, 11);
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  color: rgb(90, 65, 11);
+}
+h3{
+  color: rgb(90, 65, 11);
 }
 p {
-  color: green;
-  font-size: 24px;
+  color: rgb(17, 194, 17);
+  font-size: 18px;
+  font-family: "Open Sans";
+
+  text-transform: initial;
+}
 }
 thead {
-  color: green;
+  color: rgb(17, 194, 17);
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
+
 }
-/* img{
-  width: 200px;
+ul{
+  align-items: center;
+  text-transform: lowercase;
+}
+ol{
+  text-transform: lowercase;
+}
+table{
+  align-items: center;
+}
+/* ID használat */
+#ikon {
+  width: 13%;
   margin: 20px;
-} */
+}
+#kép {
+  box-shadow: lightslategrey 15%;
+  margin: 3%;
+}
+/* CLASS használat */
+.list {
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+}
+.img {
+  background-color: lightblue;
+.colorDiv {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: navy;
+  color: oldlace;
+}

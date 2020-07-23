@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburgerező - Menü</title>
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/weather.js"></script>
 </head>
+
 <body>
-    <a href="/index.html#Akciók">Akciók</a>
-    <a href="/pages/menu.html">Menü</a>
-    <a href="/pages/kapcsolat.html">Elérhetőségünk</a>
+    <div class="header" class="redButton">
+        <a href="/index.html#Akciók">Akciók</a>
+        <a href="/pages/menu.html">Menü</a>
+        <a href="/pages/kapcsolat.html">Elérhetőségünk</a>
+    </div>
+    <div name="temperatureDiv" id="temperatureDiv">
+        <label for="days">Hét napját válaszd ki</label>
+        <select name="days" id="days">
+            <option value = "0">Hétfő</option>
+            <option value = "1">Kedd</option>
+            <option value = "2">Szerda</option>
+            <option value = "3">Csütörtök</option>
+            <option value = "4">Péntek</option>
+            <option value = "5">Szombat</option>
+            <option value = "6">Vasárnap</option>
+        </select>
+        <button name="button" id="button" onclick="weatherWidget()">Mehet!</button>
+        <div name="temperatureDiv" id="temperature">
+        </div>
+    </div>
+
     <h1>Menü</h1>
     <table>
         <thead>
@@ -61,7 +82,7 @@
             <td>Édesburi</td>
             <td>2500 Ft</td>
         </tr>
-         <thead>
+        <thead>
             <tr>
                 <td colspan="3">
                     Desszertek
@@ -85,4 +106,5 @@
         </tfoot>
     </table>
 </body>
+
 </html>
